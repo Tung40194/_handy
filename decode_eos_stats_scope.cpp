@@ -12,6 +12,8 @@ Write your code in this editor and press "Run" button to compile and execute it.
 
 using namespace std;
 
+// the encoded string returned from "cleos get scope"
+// E.g. below input string is returned from running `cleos -u https://api.canfoundation.io get scope eosio.token --table stat`
 const string input_string = "........el.o3";
 
 uint64_t char_to_symbol( char c ) {
